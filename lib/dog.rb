@@ -8,6 +8,12 @@ else
 end
 end
 
-attr_accessor :breed
-attr_accessor :name
+def name=(name)
+  @name = name
+end
+
+def name(name)
+@name = name
+end
+
 end
